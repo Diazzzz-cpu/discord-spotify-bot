@@ -1,0 +1,32 @@
+{
+  "name": "discord-spotify-bot",
+  "version": "1.0.0",
+  "description": "A high-performance Discord music bot with Spotify integration using TypeScript and Lavalink",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lavalink": "java -jar lavalink/Lavalink.jar"
+  },
+  "keywords": [
+    "discord",
+    "spotify",
+    "music-bot",
+    "lavalink",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8",
+    "kazagumo": "^3.4.3",
+    "shoukaku": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

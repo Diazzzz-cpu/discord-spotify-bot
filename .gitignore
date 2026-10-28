@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+bin/
+data/
+backups/
+lavalink/Lavalink.jar
+lavalink/plugins/
+lavalink/logs/
+lavalink/application.log
